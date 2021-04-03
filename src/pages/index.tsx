@@ -1,16 +1,16 @@
 import React from 'react';
 import Head from 'next/head';
+import { Container } from '../styles/pages/Home';
 
 const Home: React.FC = () => {
   return (
-    <div>
+    <Container>
       <Head>
         <title>Titulo</title>
       </Head>
-      <main>
-        <h1>Hello world</h1>
-      </main>
-    </div>
+      <h1>ReactJS Structure</h1>
+      <p> ReactJS + NextJS structure made by Rocketseat</p>
+    </Container>
   )
 }
 
